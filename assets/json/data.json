@@ -1,0 +1,177 @@
+{
+  "site": {
+    "name": "Kalinga Odyssey",
+    "tagline": "Explore the Soul of India",
+    "description": "Discover the timeless heritage, vibrant culture, and natural beauty of Odisha - the land of Lord Jagannath"
+  },
+  "sections": {
+    "culture": { "en": "Culture & Heritage", "od": "ସଂସ୍କୃତି ଓ ଐତିହ୍ୟ" },
+    "arts": { "en": "Arts, Crafts & Textiles", "od": "କଳା, ଶିଳ୍ପ ଓ ବୟନ" },
+    "food": { "en": "Famous Foods", "od": "ପ୍ରସିଦ୍ଧ ଖାଦ୍ୟ" },
+    "governance": { "en": "State Services & Governance", "od": "ରାଜ୍ୟ ସେବା ଓ ଶାସନ" },
+    "global": { "en": "Odisha on the Global Stage", "od": "ବିଶ୍ୱ ସ୍ତରରେ ଓଡ଼ିଶା" }
+  },
+  "temples": [
+    {
+      "id": "jagannath",
+      "name": "Jagannath Temple",
+      "nameOdia": "ଜଗନ୍ନାଥ ମନ୍ଦିର",
+      "location": "Puri",
+      "description": "A 12th-century temple, one of the Char Dham, home to Lord Jagannath, Balabhadra, and Subhadra."
+    },
+    {
+      "id": "lingaraj",
+      "name": "Lingaraj Temple",
+      "nameOdia": "ଲିଂଗରାଜ ମନ୍ଦିର",
+      "location": "Bhubaneswar",
+      "description": "The largest temple in Bhubaneswar, dedicated to Lord Shiva, built in the 11th century."
+    },
+    {
+      "id": "konark",
+      "name": "Sun Temple, Konark",
+      "nameOdia": "କୋଣାର୍କ ସୂର୍ଯ୍ୟ ମନ୍ଦିର",
+      "location": "Konark",
+      "description": "A 13th-century UNESCO World Heritage site, an architectural marvel shaped like a massive chariot."
+    },
+    {
+        "id": "mukteswara",
+        "name": "Mukteswara Temple",
+        "nameOdia": "ମୁକ୍ତେଶ୍ୱର ମନ୍ଦିର",
+        "location": "Bhubaneswar",
+        "description": "A 10th-century Hindu temple dedicated to Shiva, known for its exquisite stone archway and detailed carvings."
+    },
+    {
+        "id": "udayagiri-khandagiri",
+        "name": "Udayagiri & Khandagiri Caves",
+        "nameOdia": "ଉଦୟଗିରି ଓ ଖଣ୍ଡଗିରି ଗୁମ୍ଫା",
+        "location": "Bhubaneswar",
+        "description": "Partly natural and partly artificial caves of archaeological, historical and religious importance."
+    },
+    {
+        "id": "dhauli-giri",
+        "name": "Dhauli Giri Hills",
+        "nameOdia": "ଧଉଳିଗିରି ପାହାଡ",
+        "location": "Bhubaneswar",
+        "description": "A hill on the banks of the river Daya, with a dazzling white peace pagoda, where Emperor Ashoka's change of heart occurred."
+    },
+    {
+        "id": "ratnagiri-buddhist",
+        "name": "Diamond Triangle",
+        "nameOdia": "ବୌଦ୍ଧ ତ୍ରିକୋଣ",
+        "location": "Jajpur",
+        "description": "The Buddhist complex of Ratnagiri, Udayagiri, and Lalitgiri, forming a 'Diamond Triangle' of monasteries and stupas."
+    },
+    {
+        "id": "chausath-yogini",
+        "name": "Chausath Yogini Temple",
+        "nameOdia": "ଚଉଷଠି ଯୋଗିନୀ ମନ୍ଦିର",
+        "location": "Hirapur",
+        "description": "A 9th-century tantric temple dedicated to the 64 Yoginis, unique for its circular, open-air structure."
+    },
+    {
+        "id": "barabati-fort",
+        "name": "Barabati Fort",
+        "nameOdia": "ବାରବାଟୀ ଦୁର୍ଗ",
+        "location": "Cuttack",
+        "description": "A 13th-century fort from the Ganga dynasty. Its ruins, moat, and gate offer a glimpse into its past glory."
+    },
+    {
+        "id": "sisupalgarh-fort",
+        "name": "Sisupalgarh Fort",
+        "nameOdia": "ଶିଶୁପାଳଗଡ ଦୁର୍ଗ",
+        "location": "Bhubaneswar",
+        "description": "The ruined fortification of an ancient capital of Kalinga, one of India's best-preserved early historic fortifications."
+    },
+    {
+      "id": "rajarani",
+      "name": "Rajarani Temple",
+      "nameOdia": "ରାଜାରାଣୀ ମନ୍ଦିର",
+      "location": "Bhubaneswar",
+      "description": "Famous for its intricate and erotic sculptures and unique stone composition, built in the 11th century."
+    }
+  ],
+  "crafts": [
+    {
+      "id": "pattachitra",
+      "name": "Pattachitra",
+      "nameOdia": "ପତ୍ତଚିତ୍ର",
+      "origin": "Raghurajpur",
+      "description": "Traditional scroll painting with intricate details, depicting mythological stories and Lord Jagannath."
+    },
+    {
+      "id": "applique",
+      "name": "Applique Work",
+      "nameOdia": "କାଣ୍ଡି କାମ",
+      "origin": "Pipili",
+      "description": "Vibrant decorative fabric work using cut-out patterns sewn onto another cloth."
+    },
+    {
+      "id": "filigree",
+      "name": "Silver Filigree",
+      "nameOdia": "ତାରକସୀ",
+      "origin": "Cuttack",
+      "description": "Delicate silver wire art creating intricate jewelry and decorative items."
+    },
+    {
+      "id": "stone-carving",
+      "name": "Stone Carving",
+      "nameOdia": "ପଥର କାଟା",
+      "origin": "Konark & Bhubaneswar",
+      "description": "Ancient art of sculpting temples and deities from stone."
+    }
+  ],
+  "foods": [
+    {
+      "id": "pakhala",
+      "name": "Pakhala Bhata",
+      "nameOdia": "ପଖାଲା ଭାତ",
+      "description": "Fermented rice water - the perfect summer dish and soul food of Odisha."
+    },
+    {
+      "id": "dalma",
+      "name": "Dalma",
+      "nameOdia": "ଦାଲମା",
+      "description": "A staple dish of dal cooked with vegetables and tempered with ghee and spices."
+    },
+    {
+      "id": "chhena-poda",
+      "name": "Chhena Poda",
+      "nameOdia": "ଛେନା ପୋଡା",
+      "description": "The famous baked cottage cheese dessert with a crust of caramelized sugar."
+    },
+    {
+      "id": "rasogolla",
+      "name": "Rasogolla",
+      "nameOdia": "ରସଗୋଲା",
+      "description": "Spongy cottage cheese balls in sugar syrup - a dessert with a GI tag for Odisha."
+    }
+  ],
+  "governance": [
+    {
+      "id": "subhadra-yojana",
+      "name": "Subhadra Yojana",
+      "nameOdia": "ସୁଭଦ୍ରା ଯୋଜନା",
+      "description": "A financial assistance scheme providing ₹10,000 per year for women aged 21-60."
+    },
+    {
+      "id": "kalia-yojana",
+      "name": "KALIA Scheme",
+      "nameOdia": "କାଳିଆ ଯୋଜନା",
+      "description": "Provides financial support of ₹10,000 per season to small and marginal farmers."
+    }
+  ],
+  "industries": [
+    {
+      "id": "mining",
+      "name": "Mining Industry",
+      "nameOdia": "ଖଣି ଶିଳ୍ପ",
+      "description": "Rich in iron ore, bauxite, coal, and manganese, making it a major revenue source with global exports."
+    },
+    {
+      "id": "it",
+      "name": "IT & Smart City",
+      "nameOdia": "IT ଓ ସ୍ମାର୍ଟ ସିଟି",
+      "description": "Bhubaneswar is a designated Smart City and a growing hub for IT and tech innovation."
+    }
+  ]
+}

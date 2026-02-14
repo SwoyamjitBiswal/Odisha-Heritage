@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" class="has-scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utkala Gaurav - The Soul of Odisha</title>
+    <meta name="description" content="Explore the rich heritage, vibrant culture, and stunning natural beauty of Odisha, India.">
+
+    <link rel="shortcut icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3ClinearGradient id='grad' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%23FF9933;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%23B2421D;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath fill='url(%23grad)' d='M50,5 C74.85,5 95,25.15 95,50 C95,74.85 74.85,95 50,95 C25.15,95 5,74.85 5,50 C5,25.15 25.15,5 50,5 Z M50,15 C30.67,15 15,30.67 15,50 C15,69.33 30.67,85 50,85 C69.33,85 85,69.33 85,50 C85,30.67 69.33,15 50,15 Z'/%3E%3Cpath fill='%23FF9933' d='M50,28 L55,48 L75,50 L58,62 L64,82 L50,70 L36,82 L42,62 L25,50 L45,48 Z'/%3E%3C/svg%3E">
+
+    <link rel="stylesheet" href="loco.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <div id="main">
+        <header id="hero">
+            <div id="three-bg"></div>
+            <div id="nav">
+                <a href="#" id="logo">
+                    <svg id="logo-svg" width="60" height="60" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#FF9933;" />
+                                <stop offset="100%" style="stop-color:#B2421D;" />
+                            </linearGradient>
+                            <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+                                <feGaussianBlur stdDeviation="3.5" result="coloredBlur" />
+                                <feMerge>
+                                    <feMergeNode in="coloredBlur" />
+                                    <feMergeNode in="SourceGraphic" />
+                                </feMerge>
+                            </filter>
+                        </defs>
+                        <circle cx="50" cy="50" r="45" fill="none" stroke="url(#logo-grad)" stroke-width="5" />
+                        <path d="M50,20 L60,40 L80,45 L65,60 L70,80 L50,70 L30,80 L35,60 L20,45 L40,40 Z" fill="#D4AF37" filter="url(#glow)" />
+                        <text x="50" y="58" font-family="Arial, sans-serif" font-size="12" fill="#FFF" text-anchor="middle" font-weight="bold">UG</text>
+                    </svg>
+                    Utkala Gaurav
+                </a>
+                <div id="menu">
+                    <div id="lang-toggle">
+                        <button data-lang="en" class="active">EN</button>
+                        <span>/</span>
+                        <button data-lang="od">OD</button>
+                    </div>
+                    <h4>MENU+</h4>
+                </div>
+            </div>
+            <div id="heading">
+                <div class="bounding">
+                    <h1 class="boundingelem">Explore the</h1>
+                </div>
+                <div class="blocktext">
+                    <div class="bounding">
+                        <h1 class="boundingelem" id="secondh1">Soul of India</h1>
+                    </div>
+                </div>
+                 <div class="bounding">
+                    <h5 class="boundingelem">Discover the timeless heritage, vibrant culture, and natural beauty of Odisha.</h5>
+                </div>
+            </div>
+
+            <div id="herofooter">
+                 <a href="#culture">Explore the State <i class="ri-arrow-right-line"></i></a>
+                <div id="iconset">
+                    <div class="circle"><i class="ri-arrow-down-line"></i></div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section id="culture" class="content-section">
+                <h2>Culture & Heritage</h2>
+                <div class="card-grid" id="culture-grid">
+                    <!-- Dynamic content will be injected here -->
+                </div>
+            </section>
+
+            <section id="arts" class="content-section">
+                <h2>Arts, Crafts & Textiles</h2>
+                <div class="card-scroll-container" id="arts-scroll">
+                    <!-- Dynamic content will be injected here -->
+                </div>
+            </section>
+            
+            <section id="food" class="content-section">
+                <h2>Famous Foods</h2>
+                <div class="card-grid" id="food-grid">
+                    <!-- Dynamic content will be injected here -->
+                </div>
+            </section>
+            
+            <section id="governance" class="content-section">
+                <h2>State Services & Governance</h2>
+                 <div class="card-grid" id="governance-grid">
+                    <!-- Dynamic content will be injected here -->
+                </div>
+            </section>
+
+            <section id="global" class="content-section">
+                <h2>Odisha on the Global Stage</h2>
+                <div class="card-grid" id="global-grid">
+                    <!-- Dynamic content will be injected here -->
+                </div>
+            </section>
+        </main>
+        
+        <footer id="footer">
+            <div id="footerleft">
+                <h5>2026 &copy; Utkala Gaurav</h5>
+            </div>
+            <div id="footerright">
+                <a href="#">dribbble</a><a href="#">instagram</a><a href="#">linkedin</a><a href="#">twitter</a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.158.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.158.0/examples/jsm/"
+            }
+        }
+    </script>
+    <script type="module" src="scripts/app.js"></script>
+</body>
+
+</html>
